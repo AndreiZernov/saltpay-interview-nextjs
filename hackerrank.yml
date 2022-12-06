@@ -1,8 +1,8 @@
-version: 1.0
-configuration:
-  has_webserver: true
-  scoring:
-    command: yarn install
+# version: 1.0
+# configuration:
+#   has_webserver: true
+#   scoring:
+#     command: yarn install
     # files:
     #   - junit.xml
     # Define hidden test cases and declare file paths below to evaluate candidates' submissions.
@@ -15,11 +15,11 @@ configuration:
     #   - app/secret_test
     # readonly_paths:
     #   - src/App.test.js
-  ide_config:
-    default_open_files:
-      - pages/index.tsx
-    project_menu:
-      run: yarn dev
-      install: yarn install
+  # ide_config:
+  #   default_open_files:
+  #     - pages/index.tsx
+  #   project_menu:
+  #     run: yarn dev
+  #     install: yarn install
       # test: yarn test
     
