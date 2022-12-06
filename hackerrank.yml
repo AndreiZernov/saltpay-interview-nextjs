@@ -2,9 +2,9 @@ version: 1.0
 configuration:
   has_webserver: true
   scoring:
-    command: yarn lint
-    files:
-      - junit.xml
+    command: yarn install
+    # files:
+    #   - junit.xml
     # Define hidden test cases and declare file paths below to evaluate candidates' submissions.
     #
     # Learn more:
