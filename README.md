@@ -1,35 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Objective
 
-## Getting Started
+Your challenge is to integrate with the [REST Countries API](https://restcountries.com/#api-endpoints-v2) to pull country data and display it like in the designs. Use TypeScript and React.
 
-First, run the development server:
+### Brief
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Your task is to build out the project to the designs inside the `/design` folder. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+In this challenge, you will find mobile and desktop designs for both pages.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+The designs are in JPG static format. This will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. This should help train your eye to perceive differences in spacings and sizes. Feel free to use any component libraries you may need.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+There are no assets for this challenge, as the country flags will be pulled from the [REST Countries API](https://restcountries.com/#api-endpoints-v2) and you can use an icon font library for the icons.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+There is a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
-## Learn More
+If you make any assumptions, trade-offs or de-prioritise features for timeliness, please document these decisions.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Your users should be able to:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-   See all countries from the API on the homepage
+-   Search for a country using an `input` field
+-   Filter countries by region
+-   Sort countries by population: most -> less 
+-   Click on a country to see more detailed information on a separate page
+-   Click through to the border countries on the detail page
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Evaluation Criteria
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# saltpay-interview-nextjs
+-   **TypeScript** and **React**  best practices
+-   Show us your work through your commit history
+-   We're looking for you to produce working code, with enough room to demonstrate how to structure components in a small program
+-   Completeness: Did you complete the features?
+-   Correctness: Does the functionality act in sensible, thought-out ways?
+-   Maintainability: Is it written in a clean, maintainable way?
+-   Scability: Is it written in a independent, modular way?
+-   Testing: Is the system adequately tested?
+
+### Deliverables
+
+Make sure to include all source code in the repository. 
+
+### CodeSubmit
+
+Please organize, design, test and document your code as if it were going into production - then push your changes to the master branch. After you have pushed your code, you may submit the assignment on the assignment page.
+
+All the best and happy coding,
+
+The SaltPay Team
