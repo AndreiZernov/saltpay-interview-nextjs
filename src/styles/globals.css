@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+:root {
+  --colors-black: #000000;
+  --colors-dark-blue: #111517;
+  --colors-gray: #858585;
+  --colors-light-gray: #fafafa;
+  --colors-white: #ffffff;
+
+  --fonts-size-homepage: 14px;
+  --fonts-size-detail-page: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 375px) {}
