@@ -2,7 +2,7 @@ version: 1.0
 configuration:
   has_webserver: true
   scoring:
-    command: yarn install && yarn lint
+    command: yarn install && rm -rf ./junit.xml && yarn jest test --verbose --env=jsdom --testResultsProcessor ./node_modules/jest-junit
     files:
       - junit.xml
     # Define hidden test cases and declare file paths below to evaluate candidates' submissions.
@@ -13,13 +13,12 @@ configuration:
     # hidden_files_paths:
     #   - tests/custom_test_[1-2].sh
     #   - app/secret_test
-    # readonly_paths:
-    #   - src/App.test.js
+  readonly_paths:
+    - src/pages/index.tsx
   ide_config:
     default_open_files:
-      - pages/index.tsx
+      - src/pages/index.tsx
     project_menu:
-      run: yarn dev
+      run: yarn start
       install: yarn install
-      lint: yarn lint
-    
+      test: yarn test
